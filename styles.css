@@ -51,7 +51,7 @@ body{
     grid-area: header;
     background-color: var(--secondary-color);
     color: #fff;
-    font-size: 2em;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ body{
 }
 .content span{
     display: block;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
 .content button{
     padding: 10px;
@@ -118,5 +118,9 @@ body{
                              'footer';
         grid-template-rows: 10% 20% 60% 10%;
         grid-template-columns: 100%;
+    }
+    .header{
+        font-size: 1rem;
+        
     }
 }
